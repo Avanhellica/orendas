@@ -1,0 +1,77 @@
+#simpletemp {
+margin: 25px auto 0;
+width: 400px;
+}
+
+#simpletemp #header-group {
+padding: 30px;
+background: #ccc;
+color: #fff;
+font-family: 'Playfair Display SC';
+font-weight: 700;
+font-size: 30px;
+text-align: right;
+}
+
+#simpletemp #header-group span {
+font-size: 9px;
+font-family: montserrat;
+display: block;
+font-weight: 100;
+font-style: normal;
+text-transform: uppercase;
+}
+
+#simpletemp #simpletxt {
+font-family: 'lato';
+text-align: justify;
+padding: 30px 50px;
+font-size: 11px;
+line-height: 130%;
+color: #000;
+background: #fff;
+border: #f5f5f5 1px solid;
+}
+
+.botr-md-bg { width: 280px; padding: 3px; background: #f5f5f5; margin: 10px; }
+.botr-md-al { background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png); transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; background-blend-mode: multiply; background-color: #6f84c3; background-size: cover; padding: 30px; text-align: center; font:26px playfair display; font-weight:700; color: #ccc; letter-spacing:1px; text-transform:lowercase; }
+
+.botr-md-dt { text-align: center; text-transform: uppercase; font: 700 8px/100% roboto; color:#ccc; letter-spacing: 1px; padding-top: 5px;}
+
+.botr-md-oc { width: 258px; padding: 10px; background: #fff; }
+
+.botr-md-ic { width: 216px; padding: 20px; border: 1px solid #fff; background: #fff; text-align: justify;  font: 400 11px/135% lato; color: #000; text-transform: none; }
+.botr-sm-li3 { padding: 10px; margin-top: 10px; text-align: justify; text-transform: uppercase; font: 700 7px/100% montserrat; letter-spacing: 0px; border: 1px solid #ccc; background: #fff; }
+
+.botr-sm-bg { width: 320px; padding: 3px; border: 1px solid #ccc; background: #eaeaea; margin: 10px; }
+
+.botr-sm-names { background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png); transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; background-blend-mode: multiply; background-color: #888; background-size: cover; padding: 40px; text-align: center; font: 700 20px/130% playfair display; text-transform: lowercase; letter-spacing: -1px; color: #eee; }
+
+.botr-sm-br { border-bottom: 1px solid #888; padding-top: 5px; }
+
+.botr-sm-oc { width: 258px; padding: 30px; border: 1px solid #ccc; background: #e4e4e4; }
+
+.botr-sm-ic { width: 220px; padding: 20px; border: 1px solid #ccc; background: #efefef; text-align: justify;  font: 400 11px/130% lato; color: #444; }
+
+.botr-sm-li { padding: 10px; margin-top: 10px; text-align: right; text-transform: uppercase; font: 700 7px/100% montserrat; letter-spacing: 1px; border: 1px solid #ccc; background: #f3f3f3; }
+
+.plotterr { width: 320px; padding: 3px; border: 1px solid #ccc; background: #eaeaea; margin: 10px; height:250px; }
+
+.plotterr-names { background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png); transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; background-blend-mode: multiply; background-color: #888; background-size: cover; padding: 40px; text-align: center; font: 700 20px/130% playfair display; text-transform: lowercase; letter-spacing: -1px; color: #eee; }
+
+.plotterr-bign { border-bottom: 1px solid #888; padding-top: 5px; }
+
+.plotterr-hold { width: 80px; padding: 30px; border: 1px solid #ccc; background: #e4e4e4; float: left; }
+
+.plotterr-pic { width: 30px; padding: 20px; border: 1px solid #ccc; background: #efefef; text-align: justify;  font: 400 11px/130% lato; color: #444;  float: left; }
+
+.plotterr-plot { margin: 5px; padding: 10px; width: 150px; height:110px; margin-top: 5px; text-align: right; font: 10.5px/100% lato; letter-spacing: 1px; border: 1px solid #ccc; background: #efefef; text-align: justify; overflow: auto; }
+
+.plotterr-pic span {
+  font-size:30px;
+  text-align:center;
+}
+
+.plotterr-hold img { width: 70px; height: 70px; border:2px solid #f5f5f5;
+    outline: 1px solid #f5f5f5;
+    outline-offset: -5px; }
