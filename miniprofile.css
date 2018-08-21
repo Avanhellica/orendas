@@ -275,13 +275,6 @@ overflow: hidden; margin-top: 10px; }
 .mpquote { font-family:lora; font-size:11.5px; letter-spacing:1px; font-weight:400; color:#222; text-align:justify; }
 .mpwhitespace { width:180px; height:270px; padding:20px; background-color:rgb(255, 255, 255, 0.6); margin-top:5px;}
 
-.dot {
-  margin-top:-5px;
-  height: 50px;
-  width: 50px;
-  display:inline-block;
-  opacity:0.8;
-}
 .barright {
    margin-top:-5px; margin-right:-5px;
    color:#fff;
