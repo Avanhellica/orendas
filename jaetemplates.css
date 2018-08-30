@@ -1,0 +1,305 @@
+/********************************
+	Templates Made by Jae
+********************************/
+
+.temp {
+    font-family: lato;
+    font-size: 11px;
+    color: #666;
+    line-height: 140%;
+    text-align: justify;
+    margin: 10px auto;
+    width: 245px;
+    border: 1px solid #eaeaea;
+    padding: 30px;
+}
+.temp inside {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.temp inside .gif{background-size: cover;}
+.temp footer {display: block;}
+
+.temp .text.scroll  {overflow: auto; height: 200px;}
+.temp inside.scroll  {overflow: auto; height: 250px;}
+.temp.postone inside.scroll {border-bottom: 0;}
+
+
+.temp.postone inside .gif{ background-size: cover;
+width: 100px; height: 100px; float: left; margin: 5px 10px;}
+.temp.postone p:first-letter{
+    color: #ccc;
+    text-align: center;
+    font-family: playfair display sc;
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.temp.postone .text{font-size:10px;}
+.temp.postone footer{ border-top: 1px solid #ccc; padding-top: 10px; color: #222;}
+
+.temp.posttwo .gif {
+    width: 244px;
+    height: 120px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+}
+.temp.posttwo footer {
+    background: #666;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    left: -11px;
+    top: -10px;
+    width: 225px;
+}
+.temp.postone footer, .temp.posttwo footer{ text-align: center; text-transform: uppercase; font: 700 7px roboto;}
+
+.temp.posttwo .text {
+    margin-top: -10px;
+}
+
+.temp.postthree {
+    width: 400px;
+    line-height: 180%;
+}
+.temp.postthree .gif {
+    width: 400px;
+    height: 160px;
+    position: relative;
+    left: -11px;
+    top: -10px;
+}
+.temp.postthree footer {
+    background: #ccc;
+    margin-top: 20px;
+}
+.temp.postthree footer z {
+    position: relative;
+    width: 217px;
+    text-align: right;
+    padding: 4px 2px;
+    font: 700 8px roboto;
+    text-transform: uppercase;
+    color: #737373;
+    display: inline-block;
+}
+.temp.postthree footer z:nth-child(2) {width: 150px; }
+.temp.postthree footer z span {
+    background: #fff;
+    padding: 10px 10px;
+    height: 21px;
+    width: 24px;
+    font-size: 3em;
+    color: #ccc;
+    top: -13px;
+    left: 8px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.temp.postfour {
+    width: 620px;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+    line-height: 220%;
+}
+.temp.postfour inside {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+.temp.postfour .cover {
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+.temp.postfour .cover .image {
+    width: 600px;
+    position: absolute;
+    top: 41px;
+    height: 400px;
+    background-size: cover;
+}
+.temp.postfour .cover footer {
+    width: 600px;
+    position: absolute;
+    z-index: 2;
+    top: 41px;
+    height: 400px;
+    display: block;
+}
+.temp.postfour .cover footer .quote {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2em;
+    text-align: left;
+    width: 500px;
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    color: #fff;
+}
+.temp.postfour .cover footer .item {
+    vertical-align: middle;
+    display: block;
+    margin: 10px;
+    margin-top: 20px;
+    width: 200px;
+    position: relative;
+    font-family: roboto;
+    text-align: right;
+    left: 395px;
+    color: #fff;
+    transition: all ease 0.6s;
+    -webkit-transition: all ease 0.6s;
+    -moz-transition: all ease 0.6s;
+}
+.temp.postfour inside:hover .cover footer .item {left: 800px; }
+.temp.postfour inside:hover .cover footer .item:nth-child(1){transition-delay: 0.3s;}
+.temp.postfour inside:hover .cover footer .item:nth-child(3){transition-delay: 0.5s;}
+.temp.postfour inside:hover .cover footer .item:nth-child(2){transition-delay: 0.7s;}
+.temp.postfour .cover footer .item span {
+    font-size: 2em;
+    background: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: -10px;
+    border-radius: 100%;
+    color: #ccc;
+    float: right;
+    
+}
+.temp.postfour .cover footer .item:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.temp.postfour .hover {
+    position: absolute;
+    overflow: auto;
+    top: 520px;
+    z-index: 2;
+    width: 520px;
+    height: 320px;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.75);
+    padding: 40px;
+    transition: all ease 2s;
+    -webkit-transition: all ease 2s;
+    -moz-transition: all ease 2s;
+}
+.temp.postfour inside:hover .hover {top: 41px; opacity: 1;}
+
+.temp.phoneone inside {
+    padding: 0;
+}
+.temp.phoneone, .temp.phoneone inside {
+    padding: 2px;
+    border-radius: 6px;
+}
+.temp.phoneone top span.th {
+    font-size: 12px;
+    margin-top: -2px;
+}
+.temp.phoneone top {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 7px roboto;
+    padding: 10px 6px;
+    background: #eee;
+}
+.temp.phoneone top span.th.th-battery-2-o {float: right; transform: rotate(90deg); } .temp.phoneone top span.th.th-wifi-1-o {float: left; }
+.temp.phoneone header {
+    display: block;
+    background: #ccc;
+    padding: 10px 0;
+}
+.temp.phoneone header h2 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+.temp.phoneone header div {
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    float: left;
+    margin-left: 10px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+}
+.temp.phoneone .convo {
+    clear: both;
+    padding: 5px 0 10px;
+    height: 250px;
+    overflow: auto;
+}
+.temp.phoneone .convo m {
+    display: block;
+    background: #f9f9f9;
+    margin: 10px auto;
+    border: 1px solid #eee;
+    padding: 6px;
+    border-radius: 6px;
+    font-size: 10px;
+    color: #999;
+    width: 200px;
+}
+.temp.phoneone footer {
+    text-align: center;
+    text-transform: uppercase;
+    font: 700 7px roboto;
+    padding: 10px 6px;
+    height: 18px;
+    background: #eee;
+}
+.temp.phoneone footer span.th.th-photo-camera-1 {
+    float: left;
+    font-size: 18px;
+    color: #ccc;
+    margin: 0 3px;
+}
+.temp.phoneone footer .msg, .send {
+    padding: 2px 6px;
+    display: inline-block;
+    width: 135px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 10px;
+    float: left;
+    margin: 0 2px;
+    text-align: left;
+}
+.temp.phoneone footer .send {width: 30px; text-align: center; }
+
+#te-caelestis .temp.postone p:first-letter { color: #ca8181; }
+#te-infestus .temp.postone p:first-letter { color: #e0a66c; }
+#te-pluris .temp.postone p:first-letter { color: #81a6ca; }
+#te-polleo .temp.postone p:first-letter { color: #81ca93; }
+#te-turpe .temp.postone p:first-letter { color: #a681ca; }
+#te2-caelestis .temp.posttwo footer { background: #ca8181; }
+#te2-infestus .temp.posttwo footer { background: #e0a66c; }
+#te2-pluris .temp.posttwo footer { background: #81a6ca; }
+#te2-polleo .temp.posttwo footer { background: #81ca93; }
+#te2-turpe .temp.posttwo footer { background: #a681ca; }
+#te3-caelestis .temp.postthree footer z span { color:  #ca8181; }
+#te3-infestus .temp.postthree footer z span { color: #e0a66c; }
+#te3-pluris .temp.postthree footer z span { color: #81a6ca; }
+#te3-polleo .temp.postthree footer z span { color:  #81ca93; }
+#te3-turpe .temp.postthree footer z span { color: #a681ca;  }
+#te4-caelestis .temp.postfour .cover footer .item span { color: #ca8181; }
+#te4-infestus .temp.postfour .cover footer .item span { color: #ca8181; }
+#te4-pluris .temp.postfour .cover footer .item span { color: #81a6ca; }
+#te4-polleo .temp.postfour .cover footer .item span { color:  #81ca93; }
+#te4-turpe .temp.postfour .cover footer .item span { color:  #a681ca; }
+#te5-caelestis .temp.phoneone header { background: #ca8181; }
+#te5-infestus .temp.phoneone header { background: #e0a66c; }
+#te5-pluris .temp.phoneone header { background: #81a6ca; }
+#te5-polleo .temp.phoneone header { background: #81ca93; }
+#te5-turpe .temp.phoneone header { background: #a681ca; }
