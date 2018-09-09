@@ -1,9 +1,9 @@
 #moodboard { width: 550px; height: 400px;  }
-.m-b { width: 350px; height: 308px; padding: 45px; background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png); background-blend-mode: multiply; background-color: #666; transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; border: 1px solid #e0e0e0; float: left; }
+.m-b { width: 350px; height: 308px; padding: 45px; background-image: url(https://s8.postimg.cc/y5kjzz9np/e4697cada5ca24012c37079f7e7c9b5e.jpg); background-blend-mode: multiply; background-color: #666; transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; border: 1px solid #e0e0e0; float: left; }
 .m-b img { width: 92px; padding: 5px; border: 4px double #666; }
 .m-b img:hover { -webkit-filter: grayscale(0%); filter: grayscale(0%); }
 
-#saesthet {  max-width: 450px; height: auto; align:center; padding: 35px; background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png); background-blend-mode: multiply; background-color: #666; transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; border: 1px solid #e0e0e0;  }
+#saesthet {  max-width: 450px; height: auto; align:center; padding: 35px; background-image: url(https://s8.postimg.cc/y5kjzz9np/e4697cada5ca24012c37079f7e7c9b5e.jpg); background-blend-mode: multiply; background-color: #666; transform: translate3d(0,0,0); -webkit-transform: translate3d(0,0,0); background-attachment: fixed; border: 1px solid #e0e0e0;  }
 .sim-aes { width: auto; height: auto; clear: left; }
 .sim-aes img { max-width: 400px; border: 4px double #666; margin-bottom:5px; }
 .sim-aes img:hover { -webkit-filter: grayscale(0%); filter: grayscale(0%); }
@@ -32,7 +32,7 @@
 .imsmalom {
   width:350px;
   height:auto;
-  background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png);
+  background-image: url(https://s8.postimg.cc/y5kjzz9np/e4697cada5ca24012c37079f7e7c9b5e.jpg);
     background-blend-mode: multiply;
     background-color: #666;
     -webkit-background-size: cover;
@@ -49,7 +49,7 @@
 .imsmalsnip {
   width:350px;
   height:auto;
-  background-image: url(https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png);
+  background-image: url(https://s8.postimg.cc/y5kjzz9np/e4697cada5ca24012c37079f7e7c9b5e.jpg);
     background-blend-mode: multiply;
     background-color: #666;
     -webkit-background-size: cover;
@@ -67,7 +67,7 @@
 .aesmookay2 table { width:10%; }
 
 #charstatout {
-   background: url('https://s15.postimg.cc/nm5b1hk6z/naturewallpaper.png');
+   background: url('https://s8.postimg.cc/y5kjzz9np/e4697cada5ca24012c37079f7e7c9b5e.jpg');
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
