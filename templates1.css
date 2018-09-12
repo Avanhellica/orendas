@@ -2,7 +2,7 @@
   Site Templates
 *****************************************/
 #gen {  width: 300px; padding: 25px; background: #f2f2f2; border: 1px solid #ddd; font: 11px lora; text-align: justify; }
-#gen b, #gen i { color: #6f84c3; }
+#gen b, #gen i { color: #ccb85f; }
 
 .gen2 {
 border: 1px solid #f3f3f3;
@@ -25,7 +25,7 @@ text-align: justify;
     font:7px 'montserrat';
      text-transform:uppercase;
      font-weight:700;
-    color: #6f84c3;
+    color: #ccb85f;
      letter-spacing:2px; }
 
 .bustempout {
