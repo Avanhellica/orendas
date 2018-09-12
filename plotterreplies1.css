@@ -1,27 +1,3 @@
-#simpletemp {
-margin: 25px auto 0;
-width: 400px;
-}
-
-#simpletemp #header-group {
-padding: 30px;
-background: #ccc;
-color: #fff;
-font-family: 'Playfair Display SC';
-font-weight: 700;
-font-size: 30px;
-text-align: right;
-}
-
-#simpletemp #header-group span {
-font-size: 9px;
-font-family: montserrat;
-display: block;
-font-weight: 100;
-font-style: normal;
-text-transform: uppercase;
-}
-
 #simpletemp #simpletxt {
 font-family: 'lato';
 text-align: justify;
