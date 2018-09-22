@@ -1,0 +1,506 @@
+/***********************************
+ Mini Profile
+************************************/
+
+.miniptopbar { 
+	width: 900px;
+	height: 115px;
+	background-color: #fff;
+	overflow: hidden;
+	padding: 10px;  
+	display: flex;
+z-index:1;
+}
+
+.aest { 
+	width: 540px; 
+	height: 100px; 
+	margin-right:10px;
+	display:inline-block; 
+}
+
+.aest img { 
+	width: 100px;
+	height: 100px;
+	padding: 5px;
+	margin-right:10px;
+	border: 5px solid rgba(170, 170, 170, 0.1); }
+
+.aest2 { 
+	width: 100px; 
+	height: 100px; 
+	display:inline-block; 
+
+}
+
+.playername { 
+	float:right;
+	font-family:Playfair Display; 
+	font-weight:700;
+	padding-top:20px;
+	font-size:25px;
+	margin-left:10px;
+	height:auto;
+	max-width:300px;
+	text-transform:uppercase;
+	word-break: break-word;
+	line-height: 85%;
+	text-align:right;
+z-index:2; }
+
+.playername sub {
+	font-family:roboto; 
+	font-size:10px;
+	font-weight:600;
+	color:#222;
+	opacity:0.7; 
+}
+
+.playerinfo {
+	height:55px;
+	margin-left:15px;
+	font-size:25px;
+	margin-bottom:-5px;
+	margin-top:-10px; }
+
+.playermoarinf1 { 
+  width: 120px;
+  text-align:center;
+  border-bottom: 1px solid #B69369;
+  font-family:roboto; 
+  font-size: 8px; 
+  display:inline-block;
+  text-transform:uppercase; 
+  font-weight:800;
+  color:#666;
+  padding-bottom:2px; }
+
+.playerinfoicons {
+	color:#e6e6e6;
+  padding-right:15px;
+  padding-top:5px;
+}
+
+.playerinfoicons a {
+	color:#e6e6e6;
+  	padding-right:10px;
+}
+
+.playerinfoicons span:hover {
+  transition:.6s;
+  color: #bfbfbf;
+
+}
+
+.playerinfoicons a:hover {
+  transition:.6s;
+  color: #bfbfbf;
+
+}
+
+@-webkit-keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes wobble {
+  16.65% {
+    -webkit-transform: translateY(8px);
+    -ms-transform: translateY(8px);
+    transform: translateY(8px);
+  }
+  33.3% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px);
+  }
+  66.6% {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateY(1px);
+    -ms-transform: translateY(1px);
+    transform: translateY(1px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.wobble {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.wobble:hover {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  75% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+}
+
+.pulse {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.pulse:hover {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+  -webkit-animation-duration: 5s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.avatar { 
+width: 250px;
+height: 500px; 
+padding: 10px; 
+position: relative;
+overflow: hidden; margin-top: 15px;
+background:rgba(170, 170, 170, 0.1);
+ }
+
+#yoprof {width: 250px; height: 500px; position: relative; overflow: hidden;  }
+
+
+.mpqbox { width:195px; height:30px; padding:20px; background-color: rgba(255,255,255,0.8); overflow-x:hidden; overflow-y:auto; margin-bottom:10px; }
+
+.mpquote { font-family:lora; font-size:11.5px; letter-spacing:1px; font-weight:600; color:#222; text-align:justify; }
+
+#cboxbox { 
+position: absolute;
+bottom: 40px;
+left: 10px;
+width: 310px; 
+height: 210px; 
+padding: 5px 20px 30px 20px;
+background-color: #fff; 
+}
+
+#boxbox {
+background-color: #fff; 
+width: 325px; 
+height: 325px;
+padding: 20px;
+margin-left: -3px;}
+
+#boxbox2 {
+position: absolute; 
+left: 100px;
+margin-top: 65px;}
+
+#pelasmove {
+margin-top: -35px;
+margin-left: -8px;}
+
+#pelasmove2 {
+margin-top: -35px;}
+
+#welcomemi {
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+font-size: 9px;
+margin-top: 30px;
+margin-left: -20px;
+margin-bottom: 45px;
+width: 365px;
+padding-bottom: 40px;
+border-bottom: #fafafa solid 1px;}
+
+#welcdesc {
+width: 220px;
+height: 170px;
+text-align: justify;
+font-weight: normal;
+font-size: 8.5px;
+margin-left: 5px;
+padding-right: 10px;
+letter-spacing: none;
+line-height: 110%;
+color: #000;
+overflow-x:hidden; overflow-y:auto;}
+
+#adminmi {
+margin-top: 18px;
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+font-size: 9px;
+margin-left: -20px;
+margin-bottom: 45px;
+width: 365px;
+padding-bottom: 28px;
+border-bottom: #fafafa solid 1px;}
+
+
+#modmi {
+margin-top: -5px;
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+font-size: 9px;
+margin-left: -20px;
+margin-bottom: 45px;
+width: 365px;
+padding-bottom: 22px;
+padding: 22px 0px 28px 0px;
+border-bottom: #fafafa solid 1px;
+}
+
+#quicklinks {
+margin-top: 5px;
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+font-size: 9px;
+padding: 20px 20px 20px 60px;
+
+}
+
+#quickplot {
+background-color: #bcdfeb;
+margin-top: 5px;
+text-align: center;
+font-weight: 600;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#fff; 
+width: 90px;
+padding: 30px;
+text-align: center;
+font-size: 8px;
+position: relative;
+margin-bottom: -8px;
+}
+
+#quickapp {
+margin-top: 5px;
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 9px;
+position: relative;
+left: 83px;
+}
+
+
+#quickdir {
+margin-top: 5px;
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 9px;
+position: relative;
+left: 91px;
+}
+
+#quickad {
+margin-top: 5px;
+text-align: center;
+font-weight: 700;
+font-family: roboto;  
+text-transform: uppercase; 
+color:#000; 
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 9px;
+position: relative;
+left: 60px;
+}
+
+#iconfriend {
+width: 50px;
+height: 1px;
+background-color: #f3f3f3; 
+}
+
+.miniicon {
+    font-family:'saturnicons';
+    position:absolute;
+    margin-top: -30px;
+    font-size:120px;
+    color:rgba(170, 170, 170, 0.1);
+z-index:-2;
+}
+
+.playername miniicon {
+	font-family:'saturnicons';
+	position:absolute;
+    	z-index: 2;
+	margin-top: -30px;
+	font-size:120px;
+	color:rgba(170, 170, 170, 0.1);
+}
+
+.lilminip1 {
+    width: 100px;
+    height: 355px;
+    float: left;
+    padding-right:5px;
+    text-align: center; }
+
+.lilminip1 img {     width: 100px;
+    height: 355px;
+ object-fit: cover; }
+
+
+.lilminip2 {
+    width: 245px;
+    height: 60px;
+    clear: both;
+    margin-right:10px;
+    text-align: center; }
+
+.lilminip2 img { width: 245px;
+    height: 60px; 
+ object-fit: cover;}
+
+.lilminip3 img { width: 135px;
+    height: 175px; 
+ object-fit: cover;}
+
+/****************************************
+Mini P Colors
+*****************************************/
+#minig-admin .playerinfoicons a:hover {
+  color: #ccb85f; }
+#minig-admin .playerinfoicons span:hover {
+	color:#ccb85f; }
+#minig-admin .playermoarinf1 {
+  border-bottom: 1px solid #ccb85f; }
+
+#minig-moderator .playerinfoicons a:hover {
+  color: #75bdbd; }
+#minig-moderator .playerinfoicons span:hover {
+	color:#75bdbd; }
+#minig-moderator .playermoarinf1 {
+  border-bottom: 1px solid #75bdbd; }
+
+#minig-caelestis .playerinfoicons a:hover {
+  color: #ca8181; }
+#minig-caelestis .playerinfoicons span:hover {
+	color:#ca8181; }
+#minig-caelestis .playermoarinf1 {
+  border-bottom: 1px solid #ca8181; }
+
+#minig-infestus .playerinfoicons a:hover {
+  color: #e0a66c; }
+#minig-infestus .playerinfoicons span:hover {
+	color:#e0a66c; }
+#minig-infestus .playermoarinf1 {
+  border-bottom: 1px solid #e0a66c; }
+
+#minig-pluris .playerinfoicons a:hover {
+  color: #81a6ca; }
+#minig-pluris .playerinfoicons span:hover {
+	color:#81a6ca; }
+#minig-pluris .playermoarinf1 {
+  border-bottom: 1px solid #81a6ca; }
+
+#minig-polleo .playerinfoicons a:hover {
+  color: #81ca93; }
+#minig-polleo .playerinfoicons span:hover {
+	color:#81ca93; }
+#minig-polleo .playermoarinf1 {
+  border-bottom: 1px solid #81ca93; }
+
+#minig-turpe .playerinfoicons a:hover {
+  color: #a681ca; }
+#minig-turpe .playerinfoicons span:hover {
+	color:#a681ca; }
+#minig-turpe .playermoarinf1 {
+  border-bottom: 1px solid #a681ca; }
+
