@@ -1,0 +1,258 @@
+/****************************************
+   Templates by Essi
+*****************************************/
+
+.wantout {
+   border: 1px solid #f4f4f4;
+   padding: 40px;
+   width: 350px;
+   margIN: 30px auto;
+   text-align: justify;
+   font-family: lato;
+}
+
+.writingabout {
+   font-size: 12px;
+   padding-bottom: 14px;
+   border-bottom: 1px solid #f0f0f0;
+}
+
+.writingabout h1 {
+   border-top: 1px solid #f5f5f5;
+   border-bottom: 1px solid #f5f5f5;
+   padding: 40px 0;
+   text-align: center;
+   font-family: playfair display;
+   color: #000;
+   font-weight: 700;
+   text-transform: uppercase;
+   font-size: 17px;
+   letter-spacing: 1px;
+margin:0;
+   margin-bottom: 20px;
+}
+
+.wrapwant {
+   display: flex;
+   margin-top: 30px;
+}
+
+.icon {
+height: 50px;
+width: 50px;
+margin-right: 30px;
+border-radius: 100%;
+border: 1px solid #f0f0f0;
+text-align: center;
+line-height: 50px;
+font-size: 14px;
+   background-size: 100px;
+font-family: playfair display;
+text-transform: uppercase;
+color:#000;}
+
+.aboutwant {
+   width: 250px;
+   line-height: 19px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #f2f2f2;
+}
+
+.aboutwant h1 {
+   margin: 0;
+   font-family: montserrat;
+   text-transform: uppercase;
+   font-size: 10px;
+   font-weight: 700;
+   line-height: 13px;
+   margin-bottom: 10px;
+   color:#B69369;
+   letter-spacing: 1px;
+}
+
+.multi {
+   height: 100px;
+   overflow: auto;
+   padding-right: 15px;
+}
+
+#outerorendasship {
+   background:#fff;
+   width: 550px;
+   margiN: 50px auto;
+   padding: 30px;
+       border: 1px solid #f5f5f5;
+}
+
+.shipname {
+   font-family: playfair display;
+   text-transform: uppercase;
+   font-size: 22px;
+   font-weight: 700;
+   color:#000;
+   padding: 50px 0;
+   letter-spacing: 1px;
+text-align: center;
+   border-toP: 1px solid #f0f0f0;
+   border-bottom: 1px solid #f0f0f0;
+} 
+
+.holdship {
+   display: flex;
+}
+
+.shipleft {
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   margin-top: 30px;
+   width: 240px;
+border-right: 1px solid #f2f2f2;
+padding-right: 30px;
+}
+
+.aboutlist {
+display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   font-family: lato;
+   padding: 20px 0;
+   padding-bottoM: 0;
+       bordeR: 1px solid #f2f2f2;
+}
+
+.aboutlist li {
+   margin: 0 10px;
+   margin-bottoM: 25px;
+   max-width: 80px;
+   text-align: left;
+   letter-spacing: .4px;
+   line-height: 15px;
+}
+
+.aboutlist li b {
+   margin-right: 3px;
+   color:#B69369;
+   font-weight: 700;
+   font-family: montserrat;
+   text-transform: uppercase;
+   font-size: 8px;
+}
+
+.palette {
+   order: -1;
+   height: 50px;
+   margin-bottom: 15px;
+   display: flex;
+   border: 1px solid #f2f2f2;
+   padding: 5px;
+}
+
+.palin {
+   width: 100%;  
+}
+
+.shipperout {
+   display: flex;
+   flex-direction: column;
+   margin-top: 35px;
+   margin-left: 30px;
+}
+
+.bars {
+   list-style: none;
+   height: 100px;
+   width: 250px;
+   margin-bottom: 10px;}
+
+.bars li {
+   height: 3px;
+   padding-top: 1px;
+   display: block;
+   outline: 1px solid #efefef;
+   outline-offset: 5px;
+   margin-bottom: 25px;
+   margin-left: 7px;
+   margin-right: 7px;
+}
+
+.bars .attri {
+   content:"attribute";
+   float: right;
+   margin-top: -9px;
+   font-size: 7px;
+   font-family: montserrat;
+   font-weight: 700;
+   color:#aaa;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   text-shadow: .5px .5px 0 #fff, -.5px -.5px 0 #fff, .5px -.5px 0 #fff, -.5px .5px 0 #fff;
+   
+}
+
+.bars li .percent {
+   height: 2px;
+   display: block;
+   background:#B69369;
+}
+
+.shipperin {
+   width: 240px;
+   text-align: justify;
+   font-family: lato;
+   font-size: 11px;
+   line-height: 20px;
+   height: 275px;
+   padding-right: 10px;
+   overflow: auto;
+   margin-bottom: 5px;
+   margin-top: -20px;
+}
+
+.bottomship {
+   display: flex;
+}
+
+.appearance {
+   text-align: justify;
+   width: 240px;
+   margin-top: 20px;
+}
+
+.appearancein {
+       width: 228px;
+   text-align: justify;
+   font-family: lato;
+   font-size: 11px;
+   line-height: 20px;
+   height: 125px;
+   padding-right: 10px;
+   overflow: auto;
+   margin-bottom: 0px;
+   margin-left: 2px;
+}
+
+.playedby {
+   width: 226px;
+   margin-top: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   bordeR: 1px solid #f2f2f2;
+   padding: 10px;
+}
+
+.playedby li {
+   margin: 0 10px;
+   margin-bottom: 0px;
+   font-family: lato;
+}
+
+.playedby li b {
+   margin-right: 3px;
+   color:#B69369;
+   font-weight: 700;
+   font-family: montserrat;
+   text-transform: uppercase;
+   font-size: 8px;
+}
