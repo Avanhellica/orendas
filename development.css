@@ -22,7 +22,7 @@
 .playbuttons i:hover { opacity: 0.5;
     transition: 800ms; cursor: crosshair; }
 .playlititle { font-family: roboto mono; font-size:17px; font-weight: 300; color:#222; margin-top: 5px;}
-.playlitext { font-family: source sans pro; font-weight:300; font-size: 15px; margin-top:10px; }
+.playlitext { font-family: montserrat; font-weight:300; font-size: 11px; margin-top:10px; }
 .playlibot { font-size:20px; margin-top:15px; margin-left:-120px; }
 .playlibot2 { float:right; margin-right:10px; }
 .playlibot i { color:red; opacity: 0.3; }
