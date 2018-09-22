@@ -98,9 +98,9 @@ text-align: justify;
 
 .simpletbox { width: 350px; height: 300px; background: #fff; margin: 0px auto; padding: 10px; position: relative; margin-left: 50px; overflow:auto; }
 
-.simpletxt { font: 12px Lato; text-align: justify; padding: 0px; text-transform: none; line-height:16px; }
+.simpletxt { font: 12px 'Lato'; text-align: justify; padding: 0px; text-transform: none; line-height:16px; }
 
-.simplethread img { height:80px; width:80px; display: inline-block; outline: 1px solid white; outline-offset: -6px; margin:20px; }
+.simplethread img { height:80px; width:80px; display: inline-block; outline: 1px solid #fff; outline-offset: -6px; margin:20px; }
 
 
 
@@ -118,10 +118,10 @@ IM Template
 *****************************************/
 
 .imcreature { width:400px; padding:10px; margin:0 auto; } 
-.imcreaturetwo { border:10px solid white;  width:100px; height:100px; float:right;  } 
+.imcreaturetwo { border:10px solid #fff;  width:100px; height:100px; float:right;  } 
 .imcreaturetwo img { width:100px; height:100px; } 
-.imcreaturethree { height: 83px; overflow: auto; background: #f2f2f2; padding: 7px; color: #222; letter-spacing: 1px; line-height: 1.8em; font-family: cousine; font-size:10px; margin-top:10px; border-radius: 4% }
-.imcreaturesmall { font-family: cousine; font-size: 9px;text-align:left; padding: 5px; color:#444; }
+.imcreaturethree { height: 83px; overflow: auto; background: #f2f2f2; padding: 7px; color: #222; letter-spacing: 1px; line-height: 1.8em; font-family: 'roboto mono'; font-size:10px; margin-top:10px; border-radius: 4% }
+.imcreaturesmall { font-family: 'roboto mono'; font-size: 9px;text-align:left; padding: 5px; color:#444; }
 .onlinestatus { width: 95px; padding: 3px; padding-bottom:10px; background-color: #222; }
 .onlinelight { width: 10px; height: 10px; border-radius: 100%; float:left;background-color: #6aff3c; margin: -1px 0px 0px 10px;  } 
-.onlinestatus2 { padding-top:10px; font-family: 'cousine'; font-size: 10px; text-align: center; text-transform: uppercase; color: #fff; letter-spacing: 1px; padding-right:10px;}
+.onlinestatus2 { padding-top:10px; font-family: 'roboto mono'; font-size: 10px; text-align: center; text-transform: uppercase; color: #fff; letter-spacing: 1px; padding-right:10px;}
