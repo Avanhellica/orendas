@@ -1,0 +1,336 @@
+#wanted {
+    width:400px;
+     padding:30px;
+     background-color:#fff;
+     border: 1px solid #f5f5f5;
+     margin: auto;
+}
+ #wanted h1 {
+    margin: 0 20px 20px 20px;
+     font: 700 13px playfair display;
+     letter-spacing:1px;
+     text-transform:uppercase;
+     text-align:center;
+     padding:15px;
+     border-top:1px solid #f5f5f5;
+     border-bottom:1px solid #f5f5f5;
+}
+ #wanted h2 {
+    margin: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+ #wanted h2 img {
+    width: 80px;
+     height: 80px;
+     padding: 5px;
+     background: #f1f1f1;
+     border: 1px solid #ddd;
+}
+ #wanted h3 {
+    margin: 0;
+     padding: 30px;
+     font: 10px montsterrat;
+     text-align: justify;
+     line-height: 140%;
+     color: #222;
+}
+ #wanted h3 b {
+    color: #9E8369;
+     font: 700 13px playfair display;
+}
+ #wanted h3 i {
+    letter-spacing: 1px;
+     color: #9E8369;
+}
+ #wanted2 {
+    width:400px;
+     padding:30px;
+     background-color:#fff;
+     border: 1px solid #f5f5f5;
+     margin: auto;
+}
+ #wanted2 h1 {
+    margin: 0 20px 20px 20px;
+     font: 700 13px playfair display;
+     letter-spacing:1px;
+     text-transform:uppercase;
+     text-align:center;
+     padding:15px;
+     border-top:1px solid #f5f5f5;
+     border-bottom:1px solid #f5f5f5;
+}
+ .wl {
+    margin-right: 10px;
+}
+ .wl img {
+    width: 150px;
+     height: 150px;
+     padding: 5px;
+     background: #f1f1f1;
+     border: 1px solid #ddd;
+}
+ .wr {
+    padding-right: 10px;
+     overflow: auto;
+     height: 150px;
+     text-align: justify;
+     line-height: 140%;
+     font: 10px montserrat;
+     color: #222;
+}
+ .wr b {
+    color: #9E8369;
+     font: 700 13px playfair display;
+}
+ .wr i {
+    letter-spacing: 1px;
+     color: #9E8369;
+}
+
+#media {
+    width: 550px;
+     margin: auto;
+     overflow: hidden;
+     position: relative;
+     height: 600px;
+}
+ .xout {
+    background: #dee1e6;
+     padding: 5px;
+     border: 1px solid #ccc;
+     border-bottom: 0px;
+     border-radius: 5px 5px 0 0;
+}
+ .xout i {
+    margin: 0;
+     color: #aeaeae;
+}
+ .abar {
+    background: #f9f9fa;
+     padding: 2px;
+     border: 1px solid #ccc;
+     border-bottom: 0px;
+}
+ .ab {
+    border: 1px solid #ccc;
+     border-radius: 3px;
+     padding: 3px;
+     margin-left: 65px;
+     font: 10px montserrat;
+}
+ .abb {
+    float: left;
+     width: 60px;
+     text-align: center;
+     display: inline-block;
+     margin-right: 10px;
+     height: 20px;
+}
+ .abar2 az {
+    border-radius: 100%;
+     width: 0px;
+     height: 0px;
+     display: inline-block;
+     text-align: center;
+     padding: 5px 15px 15px 5px;
+     font: 10px arial;
+     background: #f1f1f1;
+     border: 1px solid #ccc;
+}
+ .abar2 mn {
+    color: #222;
+     font: 10px arial;
+     padding: 5px;
+}
+ .abar2 mn:hover {
+    background: #e1e1e2;
+     border-radius: 5px;
+}
+ .ab i {
+    color: #222;
+     display: inline-block;
+     margin: 0px;
+}
+ .abar2 {
+    background: #f9f9fa;
+     padding: 10px;
+     border: 1px solid #ccc;
+     border-top: 0px;
+}
+ .abar span {
+    background: #fff;
+     border-radius: 10px 10px 0 0;
+     position: absolute;
+     padding: 5px 10px 2px 5px;
+     font: 10px montserrat;
+     color: #222;
+     border: 1px solid #ccc;
+     top: 9px;
+     left: 80px;
+}
+ .abar span i {
+    margin-right: 10px;
+     color: #9E8369;
+}
+ .bm1 {
+    border: 1px solid #ccc;
+     padding: 10px;
+     margin-top: -1px;
+     background: #f2f2f2;
+     position: relative;
+     overflow: hidden;
+}
+ .bm2 {
+     height: 122px;
+     position: relative;
+}
+ .bm2 img {
+    width: 100px;
+     height: 100px;
+     padding: 10px;
+     background: #fff;
+     border: 1px solid #ccc;
+}
+ .bm2 h1 {
+    margin: 0;
+     position: absolute;
+     top: 20px;
+     right: 20px;
+     text-transform: uppercase;
+     font: 60px 'playfair display';
+     color: #222;
+     letter-spacing: -2px;
+     text-align: right;
+     line-height: 50%;
+}
+ .bm2 h1 b {
+    font: italic 35px 'playfair display sc';
+     font-weight: 900;
+     color: #9E8369;
+     letter-spacing: 0px;
+     display: block;
+}
+ .bm1 itemz {
+    position: absolute;
+     top: 0px;
+     left: -30px;
+     font: 250px arial;
+     color: #ccc
+}
+ .bm3 {
+    border: 1px solid #ccc;
+     margin-top: -1px;
+     padding: 10px;
+     position:relative;
+     background: #fff;
+     height: 330px;
+}
+ .bm4 {
+    background: #222;
+     padding: 7px;
+     height: 10px;
+     border-radius: 0 0 5px 5px;
+     color: #fff;
+     font: 8px montserrat;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+}
+ .bml {
+     overflow: auto;
+     padding-right: 10px;
+     width: 430px;
+     height: 330px;
+     margin-right: 10px;
+}
+ .bmr {
+     height: 330px;
+     width: 79px;
+}
+ .bmr img {
+    width: 67px;
+     padding: 5px;
+     background: #f1f1f1;
+     border: 1px solid #ccc;
+     margin-bottom: 5px;
+}
+ #media tweet {
+    background: #fbfbfb;
+     border: 1px solid #ddd;
+     display: block;
+     margin-bottom: 30px;
+}
+ tweet h1 {
+    margin: 0;
+     padding: 20px;
+     font: 17px 'playfair display';
+     color: #222;
+     line-height: 90%;
+     text-align: justify;
+}
+ tweet h2, insta h2 {
+    margin: 0;
+     background: #fff;
+     border-top: 1px solid #ddd;
+     padding: 10px;
+     display: flex;
+     justify-content: space-around;
+}
+ tweet h2 i, insta h2 i {
+    margin: 0 10px 0 10px;
+     color: #ccc;
+}
+ tweet h2 i:hover, insta h2 i:hover {
+    color: #9E8369;
+}
+ tweet h3, insta h3 {
+    background #fafafa;
+     padding: 20px 20px 5px 20px;
+     margin: 0;
+     border-top: 1px solid #ddd;
+}
+ tweet h3 comment, insta h3 comment {
+    display: block;
+     font: 10px montserrat;
+     margin-bottom: 10px;
+     text-align: justify;
+}
+ tweet h3 comment b, insta h3 comment b {
+    color: #9E8369;
+}
+ #media2 tweet, #media2 insta {
+    background: #fbfbfb;
+     border: 1px solid #ddd;
+     display: block;
+     width: 430px;
+     margin: auto;
+     margin-bottom: 30px;
+}
+ #media insta {
+    background: #fbfbfb;
+     border: 1px solid #ddd;
+     display: block;
+     margin-bottom: 30px;
+}
+ insta img {
+    width: 398px;
+     height: auto;
+     background: #fff;
+     padding: 5px;
+     border: 1px solid #ddd;
+     margin: 10px 10px 0 10px;
+}
+ insta h1 {
+    padding: 10px;
+     margin: 5px;
+     font: 11px montserrat;
+     color: #222;
+     text-align: justify;
+     line-height: 90%;
+}
+ insta h1 b {
+    color: #9E8369;
+}
+ insta h1 i {
+    color: #9E8369;
+}
